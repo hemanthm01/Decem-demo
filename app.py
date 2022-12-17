@@ -10,9 +10,8 @@ class Caluculator:
     def subtraction(self) -> float:
         return self.a-self.b
 
-cal = Caluculator(a = 3, b = 4)
-print(f"Addition : ",cal.addition())
-print(f"subtraction : ",cal.subtraction())
+    def multiplication(self) -> float:
+        return self.a * self.b
 
-# cal1 = Caluculator(a=10, b=5)
-# print(f"subtraction : ",cal1.subtraction())
+    
+
